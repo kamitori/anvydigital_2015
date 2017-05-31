@@ -1,0 +1,13 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+/public/assets/upload/themes/127.0.0.1
+/app/views/frontend/cluster_design - Copy
+/public/assets/svg
+/public/assets/images/products
+/app/storage/debugbar
