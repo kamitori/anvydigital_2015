@@ -1,0 +1,142 @@
+#navBarContainer{height:37px;margin:0;padding-bottom:10px;position:relative;width:100%}
+#navBarContainer #paletteOnOffBtn{display:none}
+#actionContainer{border:0;bottom:10px;display:inline-block;float: right; margin-top: -20px;}
+#actionContainer a{cursor:pointer;margin:0;}
+#contentContainer{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-moz-transition-property:padding-bottom;-o-transition-property:padding-bottom;-webkit-transition-property:padding-bottom;transition-property:padding-bottom;-moz-transition-duration:300ms;-o-transition-duration:300ms;-webkit-transition-duration:300ms;transition-duration:300ms;height:100%;min-height:240px;margin:0;margin-top:-60px;margin-bottom:-160px;padding:60px 0 160px 0;width:100%}
+#contentContainer.noBottomPadding{padding-bottom:0}
+
+#paletteContainer{-moz-transition-property:width;-o-transition-property:width;-webkit-transition-property:width;transition-property:width;-moz-transition-duration:300ms;-o-transition-duration:300ms;-webkit-transition-duration:300ms;transition-duration:300ms;float:left;height:100%;min-height:240px;/*overflow-x:hidden;overflow-y:hidden;*/position:relative;width:25%}
+#paletteContainer.hidden{display:none}
+#paletteContainer.hide{overflow:hidden;width:0}
+#paletteContainer.showPriceWarning #priceChangeWarning{display:block}
+
+#paletteContent .paletteContent{height:625px;background:#FFF;border-left:1px solid #e4e4e4;border-right:1px solid #e4e4e4;border-top:1px solid #e4e4e4;font-family:"Avenir LT W01 55 Roman",Verdana,Arial,sans-serif;font-size:13px;top:0;right:-26px;margin-right:26px;bottom:0;left:26px;overflow-y:auto;padding:15px;position:absolute}
+#paletteContent .paletteContent.shrink{bottom:56px}
+#paletteContent.hidden{display:none}
+#paletteContent div.paletteContent{display:none}
+#paletteContent div.paletteContent.active{display:block}
+#paletteContent div.paletteContent.active.hidden div{display:none}
+#paletteContent div.paletteContent.glow{z-index:1090}
+
+#paletteLabels{padding:0;position:absolute;width:26px}
+#paletteLabels.hide{display:none}
+#paletteLabels .paletteLabel{-moz-border-radius:4px 0 0 4px / 4px 0 0 4px;-webkit-border-radius:4px 4px;border-radius:4px 0 0 4px / 4px 0 0 4px;background-color:#f0f0f0;color:#666;cursor:pointer;display:inline-block;font-family:"Avenir LT W01 55 Roman",Verdana,Arial,sans-serif;font-size:14px;margin:0;overflow:hidden;padding:0;position:relative;width:26px}
+#paletteLabels .paletteLabel.hidden{display:none}
+#paletteLabels .paletteLabel.active{background-color:#428bca;color:#FFF}
+#paletteLabels .paletteLabel div{display:inline-block;margin:0;padding:0;position:absolute}
+#paletteLabels .paletteLabel div.noIe8{-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-webkit-transform:rotate(270deg);transform:rotate(270deg);-moz-transform-origin:center center;-ms-transform-origin:center center;-webkit-transform-origin:center center;transform-origin:center center}
+#paletteLabels .paletteLabel div.ie8{padding:3px 10px;text-align:center;zoom:1}
+
+.designawall #pathPromoWell{display:inline-block}
+
+
+#editPageContainer{-moz-transition-duration:300ms;-o-transition-duration:300ms;-webkit-transition-duration:300ms;transition-duration:300ms;-moz-transition-property:width,padding;-o-transition-property:width,padding;-webkit-transition-property:width,padding;transition-property:width,padding;background-color:#FFF;background-position:center center;background-repeat:no-repeat;border-top:1px solid #e4e4e4;border-right:1px solid #e4e4e4;float:right;height:100%;margin:0;min-height:240px;overflow:hidden;padding:0;text-align:center;width:75%}
+#editPageContainer.hidden{display:none}
+#editPageContainer.hide{border:0;overflow:hidden;padding:0;width:0}
+#editPageContainer.hide .loadingImg{display:none}
+#editPageContainer.isLoading #editPageContainerImageHotZones,#editPageContainer.isLoading #editPageContainerTextHotZones{display:none}
+
+#editAreaWorkArea{height:100%;margin:0;padding:2%;position:relative;width:95%;margin-left: 5%;}
+.svg.preview #editAreaWorkArea{padding:1% 4.5% 6.5% 2.5%}
+
+#editAreaToolBar{background:#f2f2f2;height:55px;width:100%;overflow:hidden;padding-left:10px;padding-right:10px;font-family:"Avenir LT W01 55 Roman",Verdana,Arial,sans-serif;font-size:11px;color:#58595b}
+#editAreaToolBar #leftMessage{text-align:left;float:left;display:inline-block;width:33%;line-height:55px}
+#editAreaToolBar #centerMessage{display:inline-block;margin:0 auto;line-height:2.5em;width:33%;text-align:center;line-height:30px}
+
+#picturestripContainer{-moz-transition-duration:300ms;-o-transition-duration:300ms;-webkit-transition-duration:300ms;transition-duration:300ms;-moz-transition-property:height;-o-transition-property:height;-webkit-transition-property:height;transition-property:height;clear:both;height:160px;overflow:hidden;width:100%}
+#picturestripContainer.hide{height:0}
+.svg #picturestripContainer{-moz-transition-duration:0;-o-transition-duration:0;-webkit-transition-duration:0;transition-duration:0;-moz-transition-property:none;-o-transition-property:none;-webkit-transition-property:none;transition-property:none}
+
+#picturestripContainer{-moz-transition-duration:300ms;-o-transition-duration:300ms;-webkit-transition-duration:300ms;transition-duration:300ms;-moz-transition-property:height;-o-transition-property:height;-webkit-transition-property:height;transition-property:height;clear:both;height:160px;overflow:hidden;width:100%}
+#picturestripContainer.hide{height:0}
+.svg #picturestripContainer{-moz-transition-duration:0;-o-transition-duration:0;-webkit-transition-duration:0;transition-duration:0;-moz-transition-property:none;-o-transition-property:none;-webkit-transition-property:none;transition-property:none}
+#picturestrip{background-color:#fff;border-top:1px solid #e4e4e4;font-family:"Avenir LT W01 55 Roman",Verdana,Arial,sans-serif;font-size:12px;padding-top:10px}
+#picturestrip.loading{background:url(/i/creationpath/imgBkgdCanvasGray-v13758919420001369.png) repeat;height:100%;width:100%}
+#picturestrip .picturestripImage{cursor:hand;cursor:pointer;box-shadow:1px 2px 2px 0 #aaa}
+.dragpicture #picturestrip .picturestripImage{cursor:url(/i/creationpath/icons/drag_cursor_white-v13789376720001406.cur),pointer;cursor:-moz-grabbing;cursor:-webkit-grabbing;cursor:grabbing}
+#picturestrip .picturestripImageRemoveIcon{background-color:transparent;background-image:url(/i/creationpath/tinyicons-v14002651080003271.png);background-position:-6px -394px;background-repeat:no-repeat;display:none;height:14px;left:74px;position:absolute;top:0;width:14px;z-index:4}
+#picturestrip .picturestripImageRemoveIcon:hover{background-position:-7px -369px;cursor:pointer}
+#picturestrip .picturestripImageDiv{float:left;height:94px;position:relative;width:94px;text-align:center;margin:0 3px;border:3px solid transparent}
+#picturestrip .picturestripImageDiv:hover{border-color:#fff}
+#picturestrip .picturestripImageDiv:hover .picturestripImageRemoveIcon{display:block}
+#picturestrip .picturestripImageDiv.used:hover .picturestripImageRemoveIcon{display:none}
+#picturestrip .picturestripContents{height:89px;padding:0;margin:6px 0}
+#picturestrip .picturestripContents .showRemoveButton{display:block}
+#picturestrip .picturestripContents .selected{border-color:#fff}
+#picturestrip #getMorePicsLink{cursor:pointer;color:#369}
+#picturestrip #getMorePicsLink:hover{text-decoration:underline}
+#picturestrip .picturestripFilledBackground{background:url(/i/creationpath/imgBkgdCanvasGray-v13758919420001369.png) repeat;height:144px;border-width:2px;border-style:solid;border-color:#bbb #cdcdcd}
+#picturestrip .picturestripBackground{background-color:#e3e3e3;border-width:2px;border-style:solid;border-color:#bbb #cdcdcd;height:110px}
+#picturestrip .picturestripBackground #getPicturesBtn{cursor:hand;cursor:pointer;display:block;margin:auto;padding-top:15px}
+#picturestrip #PicturestripViewport{height:118px;margin:0 22px;overflow-x:auto;overflow-y:hidden}
+#picturestrip.noUnusedPhotos #PicturestripViewport{display:none}
+#picturestrip #PictureStripNoUnusedMsg{height:118px;padding-top:55px;font-size:16px;text-align:center;margin:0 auto;display:none}
+#picturestrip.noUnusedPhotos #PictureStripNoUnusedMsg{display:block}
+#picturestrip .picturestripControls{height:18px;margin:auto;padding-top:3px;text-align:center;white-space:nowrap;width:332px}
+#picturestrip .picturestripControls span{padding:0 15px}
+#picturestrip .picturestripControls div{float:left}
+#picturestrip .picturestripControls #getPicturesBtn{margin:0 4px 0 0;vertical-align:middle}
+#picturestrip .picturestripUsedImage{background:url("/i/creationpath/picture_strip/photo_used-v13866364910001139.png") no-repeat scroll 0 0 transparent;display:none;height:21px;left:72px;margin-top:0;position:absolute;top:71px;width:20px;z-index:4}
+#picturestrip .picturestripImageDiv.used .picturestripUsedImage{display:block}
+
+.primaryButton:hover{background:#428bca}
+.primaryButton,.primaryButton:hover,.primaryButton:active,.primaryButton:visited,.secondaryButton,.secondaryButton:hover,.secondaryButton:active,.secondaryButton:visited{color:#FFF;text-decoration:none}
+.primaryButton{text-shadow:-1px -1px #428bca;background-color:#428bca;background:-webkit-gradient(linear,0% 0,0% 100%,from(#428bca),to(#428bca));background:-webkit-linear-gradient(top,#428bca,#428bca);background:-moz-linear-gradient(top,#428bca,#428bca);background:-ms-linear-gradient(top,#428bca,#428bca);background:-o-linear-gradient(top,#428bca,#428bca)}
+.secondaryButton{text-shadow:-1px -1px #369;background-color:#69c;background:-webkit-gradient(linear,0% 0,0% 100%,from(#69c),to(#5681ab));background:-webkit-linear-gradient(top,#69c,#5681ab);background:-moz-linear-gradient(top,#69c,#5681ab);background:-ms-linear-gradient(top,#69c,#5681ab);background:-o-linear-gradient(top,#69c,#5681ab)}
+.primaryButton,.secondaryButton{display:inline-block;padding:0 10px;font:13px/1.5em "Avenir LT W01 55 Roman",Verdana,Arial,sans-serif;border-radius:3px;box-shadow:1px 1px 4px #CCC;outline:0;cursor:pointer;line-height:1.55em;height:23px}
+.primaryButton.hidden{display:none}
+
+.paletteContent .large-3{
+  margin-bottom: 25px;
+  float: left;
+}
+#paletteLabels .paletteLabel{
+  width: 35px;
+}
+#paletteContent .paletteContent{
+  left: 35px;
+}
+#paletteContentOptions{
+  padding-top: 10px;
+}
+#paletteContentOptions>div, #paletteContentText>div {
+  padding: 0 0px;
+}
+.step3-options ul li.col1 span b{
+  font-size: 9px;
+}
+#slider_image{
+  width:100%;
+  height:300px;
+  overflow:hidden;
+  float:left;
+}
+.image_content{
+  float:left;
+  height:300px;
+  margin-left:10px;
+}
+#editAreaToolBar{
+  background: url("../images/dtool_header2.png") repeat-x;
+  background-color: transparent;
+}
+#editAreaToolBar .ds_tool_group{
+  margin-top: 8px;
+}
+.ui-slider-vertical .ui-slider-handle{
+    left: -0.8em;
+}
+.bundlename{
+  line-height: 5em;
+}
+
+@media only screen and (min-width: 768px) {
+  .paletteContent .large-3{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .paletteContent .large-3{
+    width: 25%;
+  }
+}
